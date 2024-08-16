@@ -1,0 +1,23 @@
+// first install below two gems
+
+gem 'slim-rails', '~> 3.6', '>= 3.6.3'
+gem 'sass-rails', '~> 6.0'
+
+
+// scaffold product with name, price, description
+cmd >> rails g scaffold product name:string price:decimal description:text
+
+// you will get .slim in the product of the views folder
+
+
+| This line will not have any extra white space.
+|  This line will have a leading space, but it is difficult to see.
+|< This line will have a leading white space.
+|> This line will have a trailing white space.
+|<> This line will have both leading and trailing white space.
+
+== 
+=> 
+'|  will drop single '
+=<  
+
